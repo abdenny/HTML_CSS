@@ -1,0 +1,53 @@
+html { 
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: .5;
+  }
+
+  #title {
+      color: blanchedalmond;
+      text-align: center;
+      font-size: 80px;
+  }
+
+  #welcome {
+      color: purple;
+      border: 1px dashed green;
+      background-color: rgb(160, 103, 235);
+      line-height: 200px;
+      text-align: center;
+      font-size: 50px;
+  }
+
+  #enter { 
+      color: honeydew;
+      font-size: 40px
+  }
+
+  #gifs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  p {
+      font-size: 40px;
+      color: white;
+      text-align: center;
+  }
+  
+  .floated {
+      float: left;
+      width: 40%;
+  }
