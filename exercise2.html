@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<!-- Number 1. -->
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -60,5 +62,170 @@
         <span id="main">Main Content</span>
    </div>
     <div id="footer">Footer</div>
+</body>
+</html> -->
+
+
+<!-- TWO COLUMNS USING ABSOLUTE POS -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #right{
+            position: absolute;
+            background-color: tomato;
+            display: inline-block;
+            border: 2px dashed purple;
+            height: 500px;
+            width: 79%;
+            left: 19%;
+        }
+
+        #left{
+            position: absolute;
+            background-color: burlywood;
+            display: inline-block;
+            border: 2px dashed purple;
+            height: 500px;
+            width: 20%;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="left">Left</div>
+    <div id="right">Right</div>
+</body>
+</html> -->
+
+<!-- THREE COLUMNS USING ABSOLUTE POS -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+                
+        #left{
+            position: absolute;
+            background-color: burlywood;
+            display: inline-block;
+            border: 2px dashed purple;
+            height: 500px;
+            width: 20%;
+            left: 0;
+        }
+
+        #center{
+            position: absolute;
+            background-color:royalblue;
+            display: inline-block;
+            border: 2px dashed white;
+            height: 500px;
+            width: 60%;
+            left: 19%;
+        }
+
+        #right{
+            position: absolute;
+            background-color: tomato;
+            display: inline-block;
+            border: 2px dashed purple;
+            height: 500px;
+            width: 79%;
+            left: 79%;
+        }
+    </style>
+</head>
+<body>
+    <div id="left">Left</div>
+    <div id="center">Center</div>
+    <div id="right">Right</div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #top{
+            position: absolute;
+            bottom: 90%;
+            background-color: brown;
+            height: 10%;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        #bot{
+            position: absolute;
+            bottom: 0%;
+            background-color: hotpink;
+            height: 10%;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+        }
+        #left{
+            position: absolute;
+            left: 0%;
+            bottom: 10%;
+            display: inline-block;
+            background-color: burlywood;
+            width: 20%;
+            height: 80%;
+            box-sizing: border-box;
+            margin: 0;
+            text-align: center;
+        }
+
+        #center{
+            position: absolute;
+            left: 20%;
+            bottom: 10%;
+            display: inline-block;
+            background-color: blue;
+            width: 60%;
+            height: 80%;
+            box-sizing: border-box;
+            margin: 0;
+            text-align: center;
+        }
+
+        #right{
+            position: absolute;
+            left: 80%;
+            bottom: 10%;
+            display: inline-block;
+            background-color: pink;
+            width: 20%;
+            height: 80%;
+            box-sizing: border-box;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">Top</div>
+    <div id="left">Left</div>
+    <div id="center">Center</div>
+    <div id="right">Right</div>
+    <div id="bot">Bottom</div>
 </body>
 </html>
