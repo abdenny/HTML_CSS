@@ -151,7 +151,7 @@
     <div id="right">Right</div>
 </body>
 </html> -->
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -227,5 +227,66 @@
     <div id="center">Center</div>
     <div id="right">Right</div>
     <div id="bot">Bottom</div>
+</body>
+</html> -->
+
+<!-- #3 FLOATS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #header {
+            background-color: red;
+            height: 120px;
+            text-align: center;
+            font-size: 3em;
+            line-height: 90px;
+        }
+        #column1{
+            float: left;
+            background-color: yellow;
+            width: 300px;
+            height: 700px;
+            font-size: 3em;
+            line-height: 500px;
+            text-align: center;
+        }
+
+        #column2{
+          
+            background-color: rgb(39, 170, 67);
+            width: 1400px;
+            height: 700px;
+            font-size: 3em;
+            line-height: 500px;
+            text-align: center;
+        }
+        #footer {
+            background-color: blue;
+            height: 120px;
+            text-align: center;
+            font-size: 3em;
+            line-height: 90px;
+        }
+        #parent {
+            background-color: rgb(39, 170, 67);
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="header">Header</div>
+    <div id="parent">
+        <div id="column1">Column 1</div>
+        <div id="column2">Column 2</div>
+    </div>
+    <div id="footer">Footer</div>
 </body>
 </html>
